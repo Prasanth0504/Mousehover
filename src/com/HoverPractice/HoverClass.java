@@ -19,6 +19,7 @@ public class HoverClass {
 		
 		WebElement Xmark = driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']"));
 		Xmark.click();
+		System.out.println("*********");
 		
 		WebElement Electronics = driver.findElement(By.xpath("//div[text()='Electronics']"));
 	
